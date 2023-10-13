@@ -327,7 +327,13 @@ body.dark-theme{
 }
 
 .home__perfil img{
-  width: 460px !important;
+  width: 520px !important;
+}
+
+@media (max-width: 1356px) {
+  .home__perfil img{
+    width: 260px !important;
+  }
 }
 
 .home__shape-wawes,
